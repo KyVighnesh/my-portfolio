@@ -32,7 +32,6 @@ const Main = () => {
               <a class="hoverable" rel="contact">| Full Stack Developer</a>
           </span>
 
-         <span className='green-text'>Available for Work</span>
 
          <span className='descr'>
          Mern Stack Developer with over 6
