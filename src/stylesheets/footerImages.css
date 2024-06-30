@@ -1,0 +1,274 @@
+#My-Work {
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.footer-wrapper {
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+}
+
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.top-footer span a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    min-height: 90%;
+}
+
+.bottom-footer a {
+    display: block;
+    width: 245px;
+}
+
+.bottom-footer a img {
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s transform;
+}
+
+.bottom-footer a img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.project-div {
+    width: 30%;
+    display: flex;
+    min-height: inherit;
+}
+
+.project-div a {
+    width: 30%;
+    
+}
+
+.project-div a img {
+    width: 100%;
+    height: 70px;
+}
+
+.project-div span {
+    text-align: left;
+    width: 60%;
+    font-size: 0.9em;
+    margin-left: 20px;
+    display: block;
+    min-height: inherit;
+}
+
+.project-div span a {
+        display: block;
+        width: 120px;
+    
+}
+
+.project-div span p {
+    height: 65%;
+}
+
+.button-2 {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: rgb(0 107 179);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 10px;
+  }
+  
+  .icon {
+    width: 22px;
+    height: 22px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .button-2 .link-tag {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-2:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .button-2:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button-2:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button-2::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+
+
+  @media screen and (max-width:610px) {
+    .project-div {
+        height: 250px;
+    }
+
+    .project-div p {
+        margin-top: 60px;
+    }
+  }
+  
+
+
+@media screen and (max-width:860px) {
+    .top-footer h4 {
+        font-size: 75%;
+    }
+
+    .project-div h4 {
+        font-size: 75%;
+    }
+
+    .project-div span {
+        font-size: 75%
+    }
+
+    .project-div a {
+        width: 25%;
+    }
+
+    .project-div a img {
+        height: 50px;
+    }
+
+    .top-footer span {
+        display: none;
+    }
+
+    .button-2 {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    
+
+    .project-div span h4 {
+        margin-top: 30px;
+    }
+
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-div span p{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 30px;
+    }
+
+    .project-div h4 {
+        font-size: 15px;
+    }
+
+    .project-div {
+        width: 100%;
+    }
+
+    
+    .project-div a img {
+        height: 110px;
+    }
+
+    .project-div a {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:418px) {
+
+    .footer-wrapper {
+        margin-top: 50px;
+    }
+
+    .top-footer {
+        font-size: 95%;
+    }
+    
+    .project-div a img {
+        height: 80px;
+    }
+
+    
+    .project-div h4 {
+        font-size: 12px;
+    }
+
+    
+    .project-div span p{
+        
+        font-size: 10px;
+        margin-top: 40px;
+    }
+
+   .project-div {
+    height: 200px;
+   }
+}
+

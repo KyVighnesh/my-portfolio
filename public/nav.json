@@ -1,0 +1,7 @@
+[
+    {"id":"1","name":"Home","reference":"Home"},
+    {"id":"2","name":"My Work" ,"reference":"My-Work"},
+    {"id":"3","name":"Experience","reference":"Experience"},
+    {"id":"4","name":"Certification","reference":"Certification"},
+    {"id":"5","name":"Education","reference":"Education"}
+]

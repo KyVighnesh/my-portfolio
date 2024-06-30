@@ -1,0 +1,129 @@
+.nav-main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid #bfbfc2;
+}
+
+.left-nav {
+    width: 50%;
+    display: flex;
+    gap: 60px;
+    margin: auto;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+
+#header-container {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+
+.center-nav {
+    width: 30%;
+    left: 45%;
+}
+
+.icon-svg {
+    width: 100%;
+}
+
+.right-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-input {
+    border-radius: 30px;
+    width: 250px;
+}
+
+.login-button {
+    display: block;
+    border-radius: 30px;
+    width: 100px;
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    height: 50px;
+}
+
+.login-button span {
+    font-weight: bolder;
+}
+
+.Signup-button {
+    display: block;
+    border-radius: 30px;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border: none; 
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1100px) {
+
+
+    .left-nav div {
+        width: 30%;
+    }
+
+    .left-nav {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+
+    .left-nav div {
+        width: 30%;
+    }
+
+    .left-nav {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:655px) {
+    .nav-main {
+        display: none;
+    }
+
+    #header-container {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:830px) {
+    .left-nav div {
+        width: 80%;
+    }
+
+    .left-nav {
+        width: 90%;
+    }
+
+    .left-nav div span {
+        font-size: 80%;
+    }
+
+}

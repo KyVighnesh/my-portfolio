@@ -1,0 +1,137 @@
+.timeline {
+    width: 75%;
+    position: relative;
+
+  }
+
+  .timeline-box {
+    position: relative;
+    width: 40%;
+    min-height: 150px;
+    left: 5%;
+    text-align: right;
+    padding: 5px;
+  }
+
+  .timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+
+  }
+
+
+  .timeline-logo {
+    width: 50px;
+    overflow: hidden;
+    position: absolute;
+
+
+  }
+
+  .timeline-box:nth-child(2n) {
+    left: 53%;
+    text-align: left;
+  }
+
+  .timeline-box:nth-child(2n+1)::after{
+    left: 109.6%;
+  }
+
+  .timeline-box:nth-child(2n)::after{
+    right: 106%;
+  }
+
+  .timeline-logo  img {
+    width: 100%;
+  }
+
+  #timeline-divider {
+    width: 1px;
+    border: 2px dashed rgb(14, 43, 53);
+    position: absolute;
+    height: 400px;
+    bottom: 20%;
+    left: 50%;
+  }
+
+  #timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 220px;
+    z-index: 2;
+  }
+
+  #timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: rgb(42, 42, 47);
+    font-size: 1.4em;
+  }
+
+  .experience-designation {
+    font-size: 1.4rem;
+
+  }
+
+  .experience-company-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .experience-duration {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+  }
+
+  .experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+  }
+
+  .experience-duration {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+  }
+
+  #Education {
+    margin-top: 80px;
+  }
+
+  @media screen and (max-width:510px) {
+    h2 {
+      font-size: 95%;
+    }
+
+    .experience-designation {
+      font-size: 90%;
+    }
+
+    .experience-company-name {
+      font-size: 80%;
+    }
+
+    .experience-duration {
+      font-size: 80%;
+    }
+    
+
+    #timeline-divider i {
+      font-size: 18px;
+    }
+  }
+
+  

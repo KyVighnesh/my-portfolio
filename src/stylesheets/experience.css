@@ -1,0 +1,58 @@
+
+
+  .expereience-container {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  .experience-info {
+    width: 90%;
+    margin: auto;
+    min-height: 180px;
+    border-radius: 10px;
+    background-color:#f5f5f6;
+
+  }
+
+  .company-info {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+  }
+
+  .logo {
+    width: 20%;
+    height: 13vh;
+  }
+
+  .company-info h5 {
+    font-weight: 500;
+  }
+
+  .company-info h4 {
+
+    font-weight: 500;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  #Experience {
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width:510px) {
+    
+    .company-info div {
+      font-size: 13px;
+    }
+
+    .company-info {
+      width: 80%;
+    }
+  }

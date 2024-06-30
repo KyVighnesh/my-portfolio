@@ -1,0 +1,54 @@
+.icon-container {
+    height: 120px;
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-footer-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.main-footer-container {
+    margin-top: 80px;
+}
+
+.footer-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.dribble-icon {
+    width: 100px;
+}
+
+.left-nav {
+    width: 30%;
+}
+
+.right-nav {
+    width: 30%;
+}
+
+.bottom-footer1 {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.left-nav p {
+    font-size: 0.9em;
+    color: #6e6d7a;
+}
+
+
+.right-nav p {
+    font-size: 0.9em;
+    color: #6e6d7a;
+}
